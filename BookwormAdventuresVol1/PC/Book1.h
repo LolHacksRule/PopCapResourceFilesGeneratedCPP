@@ -1,0 +1,386 @@
+#ifndef __Book1_H__
+#define __Book1_H__
+
+namespace Sexy
+{
+	class ResourceManager;
+	class Image;
+	class Font;
+
+	Image* LoadImageById(ResourceManager *theManager, int theId);
+	void ReplaceImageById(ResourceManager *theManager, int theId, Image *theImage);
+	bool ExtractResourcesByName(ResourceManager *theManager, const char *theName);
+
+	// Book1Chapter1 Resources
+	bool ExtractBook1Chapter1Resources(ResourceManager *theMgr);
+	extern Image* IMAGE_B1A_BLUE_SEA1;
+	extern int SOUND_HOUND_BARK;
+	extern int SOUND_HOUND_DIE;
+	extern int SOUND_TROJ_ARROWATTACK;
+	extern int SOUND_TROJ_DIE;
+	extern int SOUND_TROJ_ENGAGE1;
+	extern int SOUND_TROJ_ENGAGE2;
+	extern int SOUND_TROJ_ENGAGE3;
+	extern int SOUND_TROJ_HIT;
+	extern int SOUND_TROJ_SHIELDATTACK;
+	extern int SOUND_TROJ_SPEARATTACK;
+	extern int SOUND_TROJ_SWORDATTACK;
+
+	// Book1Chapter10 Resources
+	bool ExtractBook1Chapter10Resources(ResourceManager *theMgr);
+	extern Image* IMAGE_B1A_SUNSET;
+	extern int SOUND_BASILISK_ATTACK;
+	extern int SOUND_BASILISK_DIE;
+	extern int SOUND_BASILISK_ENGAGE;
+	extern int SOUND_BASILISK_HIT;
+	extern int SOUND_CASSKISS;
+	extern int SOUND_MEDUSA_DIE;
+	extern int SOUND_MEDUSA_ENGAGE;
+	extern int SOUND_MEDUSA_HIT;
+	extern int SOUND_MEDUSA_SONG;
+	extern int SOUND_NEMESISLAUGH;
+	extern int SOUND_NEMESISWARP;
+	extern int SOUND_WITCH_ATTACK;
+	extern int SOUND_WITCH_DIE;
+	extern int SOUND_WITCH_ENGAGE;
+	extern int SOUND_WITCH_HIT;
+
+	// Book1Chapter2 Resources
+	bool ExtractBook1Chapter2Resources(ResourceManager *theMgr);
+	extern Image* IMAGE_B1A_BLUE_SEA2;
+	extern int SOUND_CYCLOPS_DIE;
+	extern int SOUND_CYCLOPS_HIT;
+	extern int SOUND_MUTTON_BLEAT;
+	extern int SOUND_MUTTON_STUN;
+
+	// Book1Chapter3 Resources
+	bool ExtractBook1Chapter3Resources(ResourceManager *theMgr);
+	extern Image* IMAGE_B1A_STORMY_SKY;
+	extern int SOUND_CHARY_DIE;
+	extern int SOUND_CHARY_HIT;
+	extern int SOUND_FEMALE_GROAN1;
+	extern int SOUND_FEMALE_GROAN2;
+	extern int SOUND_KRAKEN_ATTACK;
+	extern int SOUND_KRAKEN_HIT;
+	extern int SOUND_KRAKEN_ROAR;
+	extern int SOUND_SCYLLA_ATTACK;
+	extern int SOUND_SCYLLA_STUN;
+	extern int SOUND_SEAELEMENTAL_HIT;
+	extern int SOUND_SEAWITCH_ATTACK;
+	extern int SOUND_SERPENT_HISS;
+	extern int SOUND_SIREN_ENGAGE;
+	extern int SOUND_SIREN_SONG;
+	extern int SOUND_WITCH_LAUGH2;
+
+	// Book1Chapter4 Resources
+	bool ExtractBook1Chapter4Resources(ResourceManager *theMgr);
+	extern Image* IMAGE_B1A_BLUE_SEA4;
+	extern int SOUND_CIRCE_ENGAGE;
+	extern int SOUND_CIRCE_POLY;
+	extern int SOUND_EAGLE_ATTACK;
+	extern int SOUND_EAGLE_CRY;
+	extern int SOUND_FEMALE_GROAN1_4;
+	extern int SOUND_FEMALE_GROAN2_4;
+	extern int SOUND_HOUND_BARK_4;
+	extern int SOUND_HOUND_DIE_4;
+	extern int SOUND_LION_HIT;
+	extern int SOUND_LION_ROAR;
+	extern int SOUND_MUTTON_BLEAT_4;
+	extern int SOUND_RAM_HIT;
+	extern int SOUND_SCORPION_ATTACK;
+	extern int SOUND_SCORPION_HIT;
+	extern int SOUND_SERPENT_HISS_4;
+	extern int SOUND_TROJ_SHIELDATTACK_4;
+
+	// Book1Chapter5 Resources
+	bool ExtractBook1Chapter5Resources(ResourceManager *theMgr);
+	extern Image* IMAGE_B1A_UNDERWORLD_BG;
+	extern int SOUND_BANSHEE_ATTACK;
+	extern int SOUND_BANSHEE_WAIL;
+	extern int SOUND_CERBERUS_GROWL;
+	extern int SOUND_CERBERUS_SCREAM;
+	extern int SOUND_ORTHRUS_DIE;
+	extern int SOUND_ORTHRUS_GROWL;
+	extern int SOUND_ORTHRUS_STUN;
+	extern int SOUND_PHANTOM_ROAR;
+	extern int SOUND_SHADE_ATTACK;
+	extern int SOUND_SHADE_DIE;
+	extern int SOUND_SHADE_ENGAGE;
+	extern int SOUND_SHADE_HIT;
+
+	// Book1Chapter6 Resources
+	bool ExtractBook1Chapter6Resources(ResourceManager *theMgr);
+	extern Image* IMAGE_B1A_BLACK;
+	extern int SOUND_GRIF_ATTACK;
+	extern int SOUND_GRIF_HIT;
+	extern int SOUND_HARPY_ATTACK;
+	extern int SOUND_HARPY_DIE;
+	extern int SOUND_HARPY_ENGAGE;
+	extern int SOUND_HARPY_HIT;
+	extern int SOUND_MANTICORE_DIE;
+	extern int SOUND_MANTICORE_HIT;
+	extern int SOUND_MINO_ATTACK;
+	extern int SOUND_MINO_GRUMBLE;
+
+	// Book1Chapter7 Resources
+	bool ExtractBook1Chapter7Resources(ResourceManager *theMgr);
+	extern Image* IMAGE_B1A_HYDRA_BOSS_BATTLE;
+	extern Image* IMAGE_B1A_SWAMP_SKY;
+	extern int SOUND_DRAGON_BITE;
+	extern int SOUND_DRAGON_DEATH;
+	extern int SOUND_DRAGON_PAIN;
+	extern int SOUND_DRAGON_ROAR;
+
+	// Book1Chapter8 Resources
+	bool ExtractBook1Chapter8Resources(ResourceManager *theMgr);
+	extern Image* IMAGE_B1A_SKY8;
+	extern int SOUND_NEMEAN_DIE;
+	extern int SOUND_NEMEAN_ENGAGE;
+	extern int SOUND_NEMEAN_HIT;
+	extern int SOUND_PIG_DIE;
+	extern int SOUND_PIG_SQUEAL1;
+	extern int SOUND_STYM_ATTACK;
+	extern int SOUND_STYM_BLEED;
+	extern int SOUND_STYM_DIE;
+	extern int SOUND_STYM_ENGAGE;
+
+	// Book1Chapter9 Resources
+	bool ExtractBook1Chapter9Resources(ResourceManager *theMgr);
+	extern Image* IMAGE_B1A_SKY9;
+	extern int SOUND_CENT_ARROWATTACK;
+	extern int SOUND_CENT_DIE;
+	extern int SOUND_CENT_ENGAGE1;
+	extern int SOUND_CENT_ENGAGE2;
+	extern int SOUND_CENT_HIT;
+	extern int SOUND_NESSUS_ATTACK;
+	extern int SOUND_NESSUS_DIE;
+	extern int SOUND_NESSUS_ENGAGE;
+	extern int SOUND_NESSUS_HIT;
+	extern int SOUND_NYMPH_ATTACK;
+	extern int SOUND_NYMPH_DIE;
+	extern int SOUND_NYMPH_ENGAGE;
+	extern int SOUND_NYMPH_HIT;
+	extern int SOUND_NYMPH_MMM;
+	extern int SOUND_NYMPH_OOH;
+	extern int SOUND_NYMPH_SONG;
+
+	// Book1Common Resources
+	bool ExtractBook1CommonResources(ResourceManager *theMgr);
+	extern Image* IMAGE_B1_LEFT_FACING_ARROW;
+
+	// Book1Init Resources
+	bool ExtractBook1InitResources(ResourceManager *theMgr);
+	extern Image* IMAGE_B1_ICONANIM10;
+	extern Image* IMAGE_B1_ICONANIM1;
+	extern Image* IMAGE_B1_ICONANIM2;
+	extern Image* IMAGE_B1_ICONANIM3;
+	extern Image* IMAGE_B1_ICONANIM4;
+	extern Image* IMAGE_B1_ICONANIM5;
+	extern Image* IMAGE_B1_ICONANIM6;
+	extern Image* IMAGE_B1_ICONANIM7;
+	extern Image* IMAGE_B1_ICONANIM8;
+	extern Image* IMAGE_B1_ICONANIM9;
+	extern Image* IMAGE_B1_ICONMASK10;
+	extern Image* IMAGE_B1_ICONMASK1;
+	extern Image* IMAGE_B1_ICONMASK2;
+	extern Image* IMAGE_B1_ICONMASK3;
+	extern Image* IMAGE_B1_ICONMASK4;
+	extern Image* IMAGE_B1_ICONMASK5;
+	extern Image* IMAGE_B1_ICONMASK6;
+	extern Image* IMAGE_B1_ICONMASK7;
+	extern Image* IMAGE_B1_ICONMASK8;
+	extern Image* IMAGE_B1_ICONMASK9;
+	extern Image* IMAGE_B1_MAP;
+	extern Image* IMAGE_B1_MAPSCREEN_BANNER;
+	extern Image* IMAGE_B1_MINIMAP_1_10;
+	extern Image* IMAGE_B1_MINIMAP_1_1;
+	extern Image* IMAGE_B1_MINIMAP_1_2;
+	extern Image* IMAGE_B1_MINIMAP_1_3;
+	extern Image* IMAGE_B1_MINIMAP_1_4;
+	extern Image* IMAGE_B1_MINIMAP_1_5;
+	extern Image* IMAGE_B1_MINIMAP_1_6;
+	extern Image* IMAGE_B1_MINIMAP_1_7;
+	extern Image* IMAGE_B1_MINIMAP_1_8;
+	extern Image* IMAGE_B1_MINIMAP_1_9;
+	extern Image* IMAGE_B1_MINIMAP_ICONS;
+
+	enum ResourceId
+	{
+		IMAGE_B1_MINIMAP_ICONS_ID,
+		IMAGE_B1_MAPSCREEN_BANNER_ID,
+		IMAGE_B1_MINIMAP_1_1_ID,
+		IMAGE_B1_MINIMAP_1_2_ID,
+		IMAGE_B1_MINIMAP_1_3_ID,
+		IMAGE_B1_MINIMAP_1_4_ID,
+		IMAGE_B1_MINIMAP_1_5_ID,
+		IMAGE_B1_MINIMAP_1_6_ID,
+		IMAGE_B1_MINIMAP_1_7_ID,
+		IMAGE_B1_MINIMAP_1_8_ID,
+		IMAGE_B1_MINIMAP_1_9_ID,
+		IMAGE_B1_MINIMAP_1_10_ID,
+		IMAGE_B1_ICONANIM1_ID,
+		IMAGE_B1_ICONANIM2_ID,
+		IMAGE_B1_ICONANIM3_ID,
+		IMAGE_B1_ICONANIM4_ID,
+		IMAGE_B1_ICONANIM5_ID,
+		IMAGE_B1_ICONANIM6_ID,
+		IMAGE_B1_ICONANIM7_ID,
+		IMAGE_B1_ICONANIM8_ID,
+		IMAGE_B1_ICONANIM9_ID,
+		IMAGE_B1_ICONANIM10_ID,
+		IMAGE_B1_ICONMASK1_ID,
+		IMAGE_B1_ICONMASK2_ID,
+		IMAGE_B1_ICONMASK3_ID,
+		IMAGE_B1_ICONMASK4_ID,
+		IMAGE_B1_ICONMASK5_ID,
+		IMAGE_B1_ICONMASK6_ID,
+		IMAGE_B1_ICONMASK7_ID,
+		IMAGE_B1_ICONMASK8_ID,
+		IMAGE_B1_ICONMASK9_ID,
+		IMAGE_B1_ICONMASK10_ID,
+		IMAGE_B1_MAP_ID,
+		IMAGE_B1_LEFT_FACING_ARROW_ID,
+		IMAGE_B1A_BLUE_SEA1_ID,
+		SOUND_TROJ_ENGAGE1_ID,
+		SOUND_TROJ_ENGAGE2_ID,
+		SOUND_TROJ_ENGAGE3_ID,
+		SOUND_TROJ_SPEARATTACK_ID,
+		SOUND_TROJ_SWORDATTACK_ID,
+		SOUND_TROJ_SHIELDATTACK_ID,
+		SOUND_TROJ_ARROWATTACK_ID,
+		SOUND_TROJ_HIT_ID,
+		SOUND_TROJ_DIE_ID,
+		SOUND_HOUND_BARK_ID,
+		SOUND_HOUND_DIE_ID,
+		IMAGE_B1A_BLUE_SEA2_ID,
+		SOUND_CYCLOPS_HIT_ID,
+		SOUND_CYCLOPS_DIE_ID,
+		SOUND_MUTTON_STUN_ID,
+		SOUND_MUTTON_BLEAT_ID,
+		IMAGE_B1A_STORMY_SKY_ID,
+		SOUND_SERPENT_HISS_ID,
+		SOUND_SIREN_SONG_ID,
+		SOUND_SIREN_ENGAGE_ID,
+		SOUND_FEMALE_GROAN1_ID,
+		SOUND_FEMALE_GROAN2_ID,
+		SOUND_WITCH_LAUGH2_ID,
+		SOUND_SEAWITCH_ATTACK_ID,
+		SOUND_SEAELEMENTAL_HIT_ID,
+		SOUND_KRAKEN_ATTACK_ID,
+		SOUND_KRAKEN_ROAR_ID,
+		SOUND_KRAKEN_HIT_ID,
+		SOUND_SCYLLA_ATTACK_ID,
+		SOUND_SCYLLA_STUN_ID,
+		SOUND_CHARY_HIT_ID,
+		SOUND_CHARY_DIE_ID,
+		IMAGE_B1A_BLUE_SEA4_ID,
+		SOUND_EAGLE_CRY_ID,
+		SOUND_EAGLE_ATTACK_ID,
+		SOUND_LION_ROAR_ID,
+		SOUND_LION_HIT_ID,
+		SOUND_RAM_HIT_ID,
+		SOUND_SCORPION_ATTACK_ID,
+		SOUND_SCORPION_HIT_ID,
+		SOUND_CIRCE_POLY_ID,
+		SOUND_CIRCE_ENGAGE_ID,
+		SOUND_FEMALE_GROAN1_4_ID,
+		SOUND_FEMALE_GROAN2_4_ID,
+		SOUND_SERPENT_HISS_4_ID,
+		SOUND_TROJ_SHIELDATTACK_4_ID,
+		SOUND_MUTTON_BLEAT_4_ID,
+		SOUND_HOUND_BARK_4_ID,
+		SOUND_HOUND_DIE_4_ID,
+		IMAGE_B1A_UNDERWORLD_BG_ID,
+		SOUND_PHANTOM_ROAR_ID,
+		SOUND_SHADE_ENGAGE_ID,
+		SOUND_SHADE_ATTACK_ID,
+		SOUND_SHADE_HIT_ID,
+		SOUND_SHADE_DIE_ID,
+		SOUND_BANSHEE_WAIL_ID,
+		SOUND_BANSHEE_ATTACK_ID,
+		SOUND_ORTHRUS_GROWL_ID,
+		SOUND_ORTHRUS_STUN_ID,
+		SOUND_ORTHRUS_DIE_ID,
+		SOUND_CERBERUS_GROWL_ID,
+		SOUND_CERBERUS_SCREAM_ID,
+		IMAGE_B1A_BLACK_ID,
+		SOUND_GRIF_ATTACK_ID,
+		SOUND_GRIF_HIT_ID,
+		SOUND_HARPY_ATTACK_ID,
+		SOUND_HARPY_ENGAGE_ID,
+		SOUND_HARPY_HIT_ID,
+		SOUND_HARPY_DIE_ID,
+		SOUND_MANTICORE_HIT_ID,
+		SOUND_MANTICORE_DIE_ID,
+		SOUND_MINO_GRUMBLE_ID,
+		SOUND_MINO_ATTACK_ID,
+		IMAGE_B1A_SWAMP_SKY_ID,
+		IMAGE_B1A_HYDRA_BOSS_BATTLE_ID,
+		SOUND_DRAGON_BITE_ID,
+		SOUND_DRAGON_ROAR_ID,
+		SOUND_DRAGON_PAIN_ID,
+		SOUND_DRAGON_DEATH_ID,
+		IMAGE_B1A_SKY8_ID,
+		SOUND_PIG_SQUEAL1_ID,
+		SOUND_PIG_DIE_ID,
+		SOUND_STYM_ENGAGE_ID,
+		SOUND_STYM_ATTACK_ID,
+		SOUND_STYM_BLEED_ID,
+		SOUND_STYM_DIE_ID,
+		SOUND_NEMEAN_HIT_ID,
+		SOUND_NEMEAN_DIE_ID,
+		SOUND_NEMEAN_ENGAGE_ID,
+		IMAGE_B1A_SKY9_ID,
+		SOUND_CENT_ENGAGE1_ID,
+		SOUND_CENT_ENGAGE2_ID,
+		SOUND_CENT_HIT_ID,
+		SOUND_CENT_DIE_ID,
+		SOUND_CENT_ARROWATTACK_ID,
+		SOUND_NYMPH_OOH_ID,
+		SOUND_NYMPH_MMM_ID,
+		SOUND_NYMPH_ATTACK_ID,
+		SOUND_NYMPH_SONG_ID,
+		SOUND_NYMPH_ENGAGE_ID,
+		SOUND_NYMPH_HIT_ID,
+		SOUND_NYMPH_DIE_ID,
+		SOUND_NESSUS_ENGAGE_ID,
+		SOUND_NESSUS_ATTACK_ID,
+		SOUND_NESSUS_HIT_ID,
+		SOUND_NESSUS_DIE_ID,
+		IMAGE_B1A_SUNSET_ID,
+		SOUND_BASILISK_ATTACK_ID,
+		SOUND_BASILISK_ENGAGE_ID,
+		SOUND_BASILISK_HIT_ID,
+		SOUND_BASILISK_DIE_ID,
+		SOUND_WITCH_ENGAGE_ID,
+		SOUND_WITCH_ATTACK_ID,
+		SOUND_WITCH_HIT_ID,
+		SOUND_WITCH_DIE_ID,
+		SOUND_MEDUSA_SONG_ID,
+		SOUND_MEDUSA_HIT_ID,
+		SOUND_MEDUSA_ENGAGE_ID,
+		SOUND_MEDUSA_DIE_ID,
+		SOUND_CASSKISS_ID,
+		SOUND_NEMESISWARP_ID,
+		SOUND_NEMESISLAUGH_ID,
+		RESOURCE_ID_MAX
+	};
+
+	Image* GetImageById(int theId);
+	Font* GetFontById(int theId);
+	int GetSoundById(int theId);
+
+	Image*& GetImageRefById(int theId);
+	Font*& GetFontRefById(int theId);
+	int& GetSoundRefById(int theId);
+
+	ResourceId GetIdByImage(Image *theImage);
+	ResourceId GetIdByFont(Font *theFont);
+	ResourceId GetIdBySound(int theSound);
+	const char* GetStringIdById(int theId);
+	ResourceId GetIdByStringId(const char *theStringId);
+
+} // namespace Sexy
+
+
+#endif

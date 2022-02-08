@@ -1,0 +1,1 @@
+We're gonna assume the name of the file is "Res" as symbols from beta reference it in compilation and most likely would be the same in all releases.
